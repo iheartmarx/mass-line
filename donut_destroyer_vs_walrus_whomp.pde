@@ -3,8 +3,6 @@
 
 // variables used throughout program
 
-/* @pjs preload="file1.png","file2.png","file3.jgp"; */
-
 int posX;
 int posY;
 
