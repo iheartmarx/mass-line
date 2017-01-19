@@ -14,7 +14,7 @@ boolean gameRunning = true;
 // happens once at beginning
 
 void setup() {
-  size(640, 480);
+  size(800, 800);
   background(0);
   player1 = new Racer(1);
   player2 = new Racer(2);
