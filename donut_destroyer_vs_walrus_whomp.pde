@@ -126,9 +126,9 @@ class Racer
     if (player == 1)
     {
       racerPose1 = loadImage("donut3.png");
-      racerPose1.resize(200, 0);
+      racerPose1.resize(150, 0);
       racerPose2 = loadImage("donut3.png");
-      racerPose2.resize(200, 0);
+      racerPose2.resize(150, 0);
 
     }
     
