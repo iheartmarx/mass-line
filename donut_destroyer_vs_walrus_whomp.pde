@@ -14,12 +14,15 @@ boolean gameRunning = true;
 // happens once at beginning
 
 void setup() {
-  size(800, 800);
+  size(640, 480);
   background(0);
   player1 = new Racer(1);
   player2 = new Racer(2);
 }
 
+boolean sketchFullScreen() {
+  return true;
+}
 // happens over and over
 
 void draw() {
