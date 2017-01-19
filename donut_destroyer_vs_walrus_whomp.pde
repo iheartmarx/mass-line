@@ -15,7 +15,6 @@ boolean gameRunning = true;
 
 void setup() {
   fullScreen();
-  size(640, 480);
   background(0);
   player1 = new Racer(1);
   player2 = new Racer(2);
